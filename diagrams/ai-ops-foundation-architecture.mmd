@@ -1,0 +1,8 @@
+flowchart LR
+    A[Operational Data] --> B[AI Engine (Advisory)]
+    B --> C[Human Review & Approval]
+    C --> D[Production Systems / Documentation]
+
+    classDef human fill:#eef,stroke:#333,stroke-width:1px;
+    class C human;
+

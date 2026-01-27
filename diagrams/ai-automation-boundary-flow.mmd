@@ -1,0 +1,11 @@
+flowchart LR
+    A[Human Intent & Requirements] --> B[AI Drafts Script / Analysis]
+    B --> C[Human Line-by-Line Review]
+    C --> D[Non-Prod Testing]
+    D --> E[Approved Deployment via CI/CD]
+
+    B -. advisory only .-> C
+
+    classDef ai fill:#fdf2e9,stroke:#333,stroke-width:1px;
+    class B ai;
+

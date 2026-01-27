@@ -1,0 +1,11 @@
+flowchart LR
+    A[Tickets & Incidents] --> B[AI Drafting Engine]
+    B --> C[Human Review & Edit]
+    C --> D[Published Documentation]
+    D --> E[Knowledge Base / Runbooks]
+    E --> F[Reduced MTTR & Fewer Repeats]
+    F --> A
+
+    classDef human fill:#eef,stroke:#333,stroke-width:1px;
+    class C human;
+
