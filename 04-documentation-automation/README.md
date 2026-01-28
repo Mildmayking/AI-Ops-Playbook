@@ -1,41 +1,101 @@
-Content Highlights:
+# Module 04 — AI Governance & Risk
 
-Ticket → Documentation workflow
+Module 04 teaches **how to govern AI safely**: policies, frameworks, and risk management.
 
-Incident → Runbook automation
+---
 
-SOP standardization framework
+## Table of Contents
 
-Knowledge base QC
+1. [Introduction](#introduction)  
+2. [Video Lessons](#video-lessons)  
+3. [Governance Frameworks](#governance-frameworks)  
+4. [Risk Identification & Mitigation](#risk-identification--mitigation)  
+5. [Compliance & Audit](#compliance--audit)  
+6. [Diagrams](#diagrams)  
+7. [Next Steps](#next-steps)
 
-Consultant vs Internal IT execution notes
+[⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Guardrails & failure modes
+---
 
-Diagram: documentation-feedback-loop.mmd
+## Introduction
 
-flowchart LR
-    A[Tickets & Incidents] --> B[AI Drafting Engine]
-    B --> C[Human Review & Edit]
-    C --> D[Published Documentation]
-    D --> E[Knowledge Base / Runbooks]
-    E --> F[Reduced MTTR & Fewer Repeats]
-    F --> A
+AI can introduce operational, security, and compliance risks.  
+This module covers:
 
+- Governance models for AI usage  
+- Policies for safe execution  
+- Continuous risk review
 
-    classDef human fill:#eef,stroke:#333,stroke-width:1px;
-    class C human;
+---
 
-Loom Video Script: Title: Turning Operations into Documentation Automatically (9 minutes)
+## Video Lessons (placeholders)
 
-00:00–01:00: Problem framing
+### 🎥 Video 04A — Governance Models
+[▶ Video coming soon]
 
-01:00–02:30: Mental model + diagram
+**Diagram cue:** `ai-governance-operating-model.png`
 
-02:30–04:30: Ticket → Doc walkthrough
+---
 
-04:30–06:00: Incident → Runbook example
+### 🎥 Video 04B — Policy & Compliance
+[▶ Video coming soon]
 
-06:00–07:30: Quality control loop
+**Diagram cue:** `documentation-feedback-loop.png`
 
-07:30–09:00: Close
+---
+
+### 🎥 Video 04C — Risk Management & Monitoring
+[▶ Video coming soon]
+
+**Diagram cue:** `ai-automation-boundary-flow.png`
+
+---
+
+### 🎥 Video 04D — Audit & Continuous Improvement
+[▶ Video coming soon]
+
+**Diagram cue:** `ai-incident-lifecycle.png`
+
+---
+
+## Governance Frameworks
+
+- Define AI ownership  
+- Establish policies for safe automation  
+- Set thresholds for risk zones
+
+---
+
+## Risk Identification & Mitigation
+
+- Map high-risk actions  
+- Apply controls to automation  
+- Monitor and log AI decisions
+
+---
+
+## Compliance & Audit
+
+- Maintain audit trails  
+- Periodically review automation outputs  
+- Adjust models and rules as environment changes
+
+---
+
+## Diagrams
+
+All diagrams for this module:
+
+- `ai-governance-operating-model.png`  
+- `documentation-feedback-loop.png`  
+- `ai-automation-boundary-flow.png`  
+- `ai-incident-lifecycle.png`
+
+---
+
+## Next Steps
+
+- Proceed to [Module 05 — AI Performance & Metrics](../MODULE_05_AI_PERFORMANCE/README.md)  
+- Return to Module Index: [⬅ Return to Module Index](../MODULE_INDEX.md)
+

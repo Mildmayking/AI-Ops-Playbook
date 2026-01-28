@@ -1,239 +1,139 @@
-Module 02 — AI-Assisted Incident Response
-Purpose of This Module
+# Module 02 — AI in Incidents & Tickets
 
-This module defines how AI is safely used during incidents — when pressure is high, time is limited, and mistakes are costly.
+In **Module 02**, we explore how AI interacts with incidents and ticket workflows.  
+This module teaches **safe integration of AI into operational processes**, ensuring that automation aids teams without introducing new risks.
 
-Incident response is the highest-risk domain for AI Ops:
+---
 
-Data is incomplete
+## Table of Contents
 
-Signals are noisy
+1. [Introduction](#introduction)  
+2. [Video Lessons](#video-lessons)  
+3. [AI-Assisted Incident Workflows](#ai-assisted-incident-workflows)  
+4. [Decision Support Models](#decision-support-models)  
+5. [Failure Modes & Guardrails](#failure-modes--guardrails)  
+6. [Diagrams](#diagrams)  
+7. [Next Steps](#next-steps)
 
-Humans are stressed
+[⬅ Return to Module Index](../MODULE_INDEX.md)
 
-AI confidence can exceed its correctness
+---
 
-This module shows how to use AI to accelerate understanding without surrendering control.
+## Introduction
 
-How to Consume This Module
+AI can provide **incredible value during incidents**, but without defined guardrails:
 
-This module consists of:
+- Signals may be misinterpreted  
+- Automation may act unsafely  
+- Teams can develop over-reliance
 
-Written documentation (this README) — authoritative operational reference
+This module focuses on **decision support**, not decision replacement.
 
-4 short videos — applied explanation and examples
+---
 
-Diagrams — repeatable incident-response mental models
+## Video Lessons
 
-Rule:
-AI may assist during incidents.
-Humans always command the response.
+### 🎥 Video 02A — AI’s Role During Incidents
 
-Module Videos
+[▶ Watch Video 02A](https://share.synthesia.io/4bff33c0-6885-4e0f-aafa-6a985ac08b09)
 
-Replace placeholders with Synthesia links when ready.
+**Diagram cue:** `ai-incident-lifecycle.png`  
+> Observe where AI can safely interact in incident detection and resolution.
 
-Video 02A — AI’s Role During Incidents
-What AI can and cannot do when systems are degraded
-https://share.synthesia.io/4bff33c0-6885-4e0f-aafa-6a985ac08b09
+---
 
-Video 02B — AI-Assisted Signal Triage
-Using AI to reduce noise and surface patterns
-https://share.synthesia.io/7134abf9-205f-41e3-a7ea-295e9466b940
+### 🎥 Video 02B — AI-Assisted Signal Triage
 
-Video 02C — Decision Support, Not Decision Making
-How AI supports human incident commanders
-https://share.synthesia.io/b2c90503-811a-4a9b-9166-1a54a7daf24e
+[▶ Watch Video 02B](https://share.synthesia.io/7134abf9-205f-41e3-a7ea-295e9466b940)
 
-Video 02D — Failure Modes & Guardrails
-Preventing AI from amplifying incidents
-https://share.synthesia.io/5dc8b3c6-33c3-4628-8351-7fbd31e8d879
+**Key Points:**
 
-02.1 — Why Incident Response Is Different
+- Prioritize signals automatically  
+- Flag anomalies for human review  
+- Avoid full automation of critical incident escalation
 
-During incidents:
+**Diagram cue:** `ai-ticket-handling-flow.png`
 
-Information is partial
+---
 
-Systems may contradict each other
+### 🎥 Video 02C — Decision Support, Not Decision Making
 
-Root cause is unknown
+[▶ Watch Video 02C](https://share.synthesia.io/b2c90503-811a-4a9b-9166-1a54a7daf24e)
 
-Decisions must be made quickly
+**Principles:**
 
-AI excels at pattern recognition, but struggles with:
+- AI provides probabilities, not guarantees  
+- Humans remain the final decision authority  
+- Define clear escalation points
 
-Context loss
+**Diagram cue:** `documentation-feedback-loop.png`
 
-Novel failure modes
+---
 
-Organizational nuance
+### 🎥 Video 02D — Failure Modes & Guardrails
 
-Core risk:
-AI can sound confident while being wrong.
+[▶ Watch Video 02D](https://share.synthesia.io/5dc8b3c6-33c3-4628-8351-7fbd31e8d879)
 
-02.2 — Approved AI Use Cases During Incidents
+**Key concepts:**
 
-AI is explicitly allowed to assist in the following Green and Yellow zone activities:
+- Recognize drift and bias in AI outputs  
+- Implement friction for safe automation  
+- Maintain logging, monitoring, and auditing of AI actions
 
-Green Zone (Advisory Only)
+**Diagram cue:** `ai-governance-operating-model.png`
 
-Ticket and alert summarization
+---
 
-Log clustering and pattern grouping
+## AI-Assisted Incident Workflows
 
-Historical incident similarity lookup
+- **Signal Detection:** AI monitors logs & metrics  
+- **Ticket Creation:** AI drafts tickets for review  
+- **Prioritization:** AI ranks incidents by impact  
+- **Human Validation:** Humans approve AI’s suggested actions
 
-Knowledge base search
+> Diagram: `ai-ticket-handling-flow.png`
 
-Yellow Zone (Drafting Only)
+---
 
-Hypothesis generation
+## Decision Support Models
 
-Draft remediation steps
+- Advisory AI → generates recommendations  
+- Execution AI → triggers automation **only within boundaries**  
+- Human review is mandatory for high-risk actions
 
-Suggested escalation paths
+> Diagram: `ai-automation-boundary-flow.png`
 
-Timeline reconstruction
+---
 
-AI must never execute changes during an incident.
+## Failure Modes & Guardrails
 
-02.3 — Human Roles in AI-Assisted Incidents
+| Mode | Risk | Guardrail |
+|------|------|----------|
+| Drift | AI output diverges from desired outcome | Review & rotate models |
+| Overconfidence | AI automates too early | Human-in-loop approvals |
+| Blind trust | Teams over-rely on AI | Continuous audit & feedback |
 
-Every AI-assisted incident response must define:
+---
 
-Incident Commander (IC) — final decision authority
+## Diagrams
 
-AI Operator — validates and contextualizes AI output
+All diagrams for this module are located in `diagrams/`:
 
-Domain Experts — approve remediation actions
+- `ai-incident-lifecycle.png`  
+- `ai-ticket-handling-flow.png`  
+- `documentation-feedback-loop.png`  
+- `ai-automation-boundary-flow.png`  
+- `ai-governance-operating-model.png`  
 
-AI is a participant, not a leader.
+> Click diagram name to view full-size images.
 
-If AI output conflicts with human judgment, humans win — without exception.
+---
 
-02.4 — AI-Assisted Incident Lifecycle
+## Next Steps
 
-AI supports specific phases of the incident lifecycle:
+After completing Module 02:
 
-Detection
+1. Proceed to [Module 03 — AI Automation & Autonomy](../MODULE_03_AI_AUTOMATION/README.md)  
+2. Use diagrams alongside videos for better understanding  
+3. Return to Module Index anytime: [⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Alert correlation
-
-Noise reduction
-
-Triage
-
-Symptom clustering
-
-Hypothesis suggestions
-
-Diagnosis
-
-Historical comparison
-
-Dependency analysis
-
-Remediation (Draft Only)
-
-Suggested actions
-
-Runbook references
-
-Post-Incident Review
-
-Timeline synthesis
-
-Lessons-learned drafting
-
-(See diagram: ai-incident-lifecycle)
-
-02.5 — Decision Support Model
-
-AI output must always be framed as:
-
-Options
-
-Tradeoffs
-
-Uncertainty
-
-Never as:
-
-Commands
-
-Instructions
-
-Final answers
-
-Example framing:
-
-“Based on similar incidents, this may indicate a database connection exhaustion. Confidence: medium. Alternative hypotheses include network latency or authentication failure.”
-
-This preserves human agency under pressure.
-
-02.6 — Common AI Failure Modes During Incidents
-1. Over-Summarization
-
-AI removes nuance to be concise.
-
-2. False Pattern Matching
-
-AI maps symptoms to the wrong historical incident.
-
-3. Authority Bias
-
-Humans defer because AI “sounds right.”
-
-4. Feedback Loops
-
-Humans reinforce incorrect AI assumptions.
-
-Guardrails must assume AI will fail occasionally and confidently.
-
-02.7 — Guardrails and Controls
-
-Mandatory controls include:
-
-Explicit confidence labeling
-
-Source citation requirements
-
-Human approval checkpoints
-
-Time-boxed AI usage (AI off after stabilization)
-
-Kill switch for AI assistance
-
-No AI assistance is better than unsafe AI assistance.
-
-02.8 — What This Module Enables
-
-After completing this module, you will be able to:
-
-Use AI to reduce MTTR safely
-
-Prevent AI from escalating outages
-
-Structure AI support for on-call teams
-
-Defend AI Ops decisions during postmortems
-
-02.9 — What Comes Next
-
-Module 03 builds on this module by introducing:
-
-AI-assisted automation
-
-Safe delegation boundaries
-
-Preventing execution drift
-
-Automation without the rules from Modules 01–02 is dangerous.
-
-Final Lock Statement
-
-This module inherits all constraints from Module 01.
-It does not relax AI permissions during incidents.
-
-✅

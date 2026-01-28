@@ -1,40 +1,84 @@
-Content Highlights:
+# Module 05 — AI Performance & Metrics
 
-Safe AI → script patterns
+Module 05 teaches **how to measure AI effectiveness** in IT operations and ensure safe outcomes.
 
-Log/alert summarization
+---
 
-Change impact analysis (advisory only)
+## Table of Contents
 
-Automation documentation generation
+1. [Introduction](#introduction)  
+2. [Video Lessons](#video-lessons)  
+3. [KPIs & Metrics](#kpis--metrics)  
+4. [Monitoring & Alerting](#monitoring--alerting)  
+5. [Continuous Improvement](#continuous-improvement)  
+6. [Diagrams](#diagrams)  
+7. [Next Steps](#next-steps)
 
-Consultant vs Internal IT execution notes
+[⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Guardrails & failure modes
+---
 
-Diagram: ai-automation-boundary-flow.mmd
+## Introduction
 
-flowchart LR
-    A[Human Intent & Requirements] --> B[AI Drafts Script / Analysis]
-    B --> C[Human Line-by-Line Review]
-    C --> D[Non-Prod Testing]
-    D --> E[Approved Deployment via CI/CD]
+Monitoring AI performance is critical to prevent drift, errors, and inefficiencies.  
+This module focuses on:
 
+- Defining metrics  
+- Observability and alerting  
+- Continuous improvement loops
 
-    B -. advisory only .-> C
+---
 
+## Video Lessons (placeholders)
 
-    classDef ai fill:#fdf2e9,stroke:#333,stroke-width:1px;
-    class B ai;
+### 🎥 Video 05A — Defining AI Metrics
+[▶ Video coming soon]
 
-Loom Video Script: Title: Using AI to Write Automation Without Losing Control (11 minutes)
+### 🎥 Video 05B — Observability & Alerts
+[▶ Video coming soon]
 
-00:00–01:30: Danger of AI + automation
+### 🎥 Video 05C — Model Performance Review
+[▶ Video coming soon]
 
-01:30–03:30: Boundary rules + diagram
+### 🎥 Video 05D — Continuous Improvement
+[▶ Video coming soon]
 
-03:30–06:30: Script draft example
+---
 
-06:30–08:30: Testing & review mindset
+## KPIs & Metrics
 
-08:30–11:00: Close / enforcement of human gate
+- Accuracy, precision, recall for AI outputs  
+- Incident response time improvements  
+- Automation efficiency and safety metrics
+
+---
+
+## Monitoring & Alerting
+
+- Log AI actions  
+- Monitor drift and anomalies  
+- Set thresholds and alerts
+
+---
+
+## Continuous Improvement
+
+- Review model outcomes  
+- Rotate outdated workflows  
+- Adjust policies and thresholds
+
+---
+
+## Diagrams
+
+- `ai-ticket-handling-flow.png`  
+- `documentation-feedback-loop.png`  
+- `ai-automation-boundary-flow.png`
+
+---
+
+## Next Steps
+
+- Proceed to [Module 06 — AI Ops Adoption & Culture](../MODULE_06_ADOPTION/README.md)  
+- Return to Module Index: [⬅ Return to Module Index](../MODULE_INDEX.md)
+

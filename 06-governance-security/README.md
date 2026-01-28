@@ -1,54 +1,84 @@
-Content Highlights:
+# Module 06 — AI Ops Adoption & Culture
 
-AI ownership & RACI model
+Module 06 addresses **how to embed AI Ops practices in teams and organizations**.
 
-Security baseline (data handling, access, model usage controls)
+---
 
-AI Acceptable Use Policy, Change Policy Addendum, Incident Policy
+## Table of Contents
 
-Risk classification framework
+1. [Introduction](#introduction)  
+2. [Video Lessons](#video-lessons)  
+3. [Change Management](#change-management)  
+4. [Training & Enablement](#training--enablement)  
+5. [Team Adoption Strategies](#team-adoption-strategies)  
+6. [Diagrams](#diagrams)  
+7. [Next Steps](#next-steps)
 
-Auditability & evidence
+[⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Training & enablement model
+---
 
-Consultant vs Internal IT notes
+## Introduction
 
-Guardrails & failure modes
+AI Ops adoption requires **cultural alignment**, training, and team buy-in.  
+This module teaches:
 
-Diagram: ai-governance-operating-model.mmd
+- Change management techniques  
+- Effective training programs  
+- Strategies for adoption and scaling
 
-flowchart TB
-    A[AI Tools] --> B[Operational Processes]
-    B --> C[Governance & Policy]
-    C --> D[Leadership Oversight]
+---
 
+## Video Lessons (placeholders)
 
-    D --> C
-    C --> B
+### 🎥 Video 06A — Change Management
+[▶ Video coming soon]
 
+### 🎥 Video 06B — Training & Enablement
+[▶ Video coming soon]
 
-    classDef gov fill:#e8f5e9,stroke:#333,stroke-width:1px;
-    class C,D gov;
+### 🎥 Video 06C — Scaling AI Ops Adoption
+[▶ Video coming soon]
 
-Loom Video Scripts:
+### 🎥 Video 06D — Lessons Learned & Future Planning
+[▶ Video coming soon]
 
-Executive Overview (7 minutes)
+---
 
-00:00–01:30: Executive problem statement
+## Change Management
 
-01:30–03:30: Governance model + diagram
+- Communicate AI Ops principles clearly  
+- Identify champions and stakeholders  
+- Set phased adoption plans
 
-03:30–05:30: Risk classification
+---
 
-05:30–07:00: Close / framework summary
+## Training & Enablement
 
-Technical Implementation (11 minutes)
+- Provide structured learning (modules + videos)  
+- Hands-on exercises with sandboxed environments  
+- Feedback loops for continuous improvement
 
-00:00–02:00: Why engineers dislike governance
+---
 
-02:00–04:30: Minimal controls (AUP, Change, Incident Policy)
+## Team Adoption Strategies
 
-04:30–07:30: Audit evidence practice
+- Encourage peer support & knowledge sharing  
+- Align KPIs with safe automation goals  
+- Reward responsible use of AI-assisted operations
 
-07:30–11:00: Close / integration into workflow
+---
+
+## Diagrams
+
+- `ai-governance-operating-model.png`  
+- `documentation-feedback-loop.png`  
+- `ai-automation-boundary-flow.png`  
+
+---
+
+## Next Steps
+
+- Return to [Module Index](../MODULE_INDEX.md)  
+- Await upcoming videos to complete lessons
+

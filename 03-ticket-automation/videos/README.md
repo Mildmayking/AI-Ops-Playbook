@@ -1,10 +1,14 @@
-These videos accompany Module 03 and should be watched in order.
+# Module 03 Videos — AI Automation & Autonomy
 
-## 🎥 Video 03A - — Automation vs Autonomy
+### 🎥 Video 03A — Automation vs Autonomy
+[▶ Video coming soon]
 
-Duration: ~1"23 minutes
-Platform: Synthesia
+### 🎥 Video 03B — Delegation Boundaries
+[▶ Video coming soon]
 
-https://share.synthesia.io/30306b69-fd71-4721-9ff0-7bb5a21cbb07
+### 🎥 Video 03C — Approval & Execution Models
+[▶ Video coming soon]
 
----
+### 🎥 Video 03D — Preventing Automation Drift
+[▶ Video coming soon]
+

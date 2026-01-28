@@ -1,127 +1,120 @@
-Module 03 — AI-Assisted Automation & Safe Delegation
-Purpose of This Module
+# Module 03 — AI Automation & Autonomy
 
-This module defines how automation is safely introduced into AI Ops without crossing into unsafe autonomy.
+Module 03 focuses on **safe automation, delegation boundaries, and preventing drift**.  
+You’ll learn how to let AI assist without taking unsafe autonomous actions.
 
-Automation amplifies both correctness and mistakes.
-When AI is involved, that amplification becomes nonlinear.
+---
 
-This module establishes where automation stops and humans remain in control.
+## Table of Contents
 
-How to Consume This Module
+1. [Introduction](#introduction)  
+2. [Video Lessons](#video-lessons)  
+3. [Automation vs Autonomy](#automation-vs-autonomy)  
+4. [Delegation Boundaries](#delegation-boundaries)  
+5. [Approval & Execution Models](#approval--execution-models)  
+6. [Preventing Automation Drift](#preventing-automation-drift)  
+7. [Diagrams](#diagrams)  
+8. [Next Steps](#next-steps)
 
-This module consists of:
+[⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Written documentation (this README) — authoritative reference
+---
 
-4 short videos — applied explanation
+## Introduction
 
-Diagrams — automation boundary models
+AI-assisted automation can **speed operations** but also **introduce risk** if boundaries aren’t clear.  
+This module covers:
 
-Rule:
-AI may draft automation.
-Humans approve and execute.
+- When automation is safe vs. when autonomy is risky  
+- Setting proper **delegation boundaries**  
+- Approval & execution models  
+- Governance to prevent drift
 
-Module Videos
+---
 
-Video 03A — Automation vs Autonomy
-https://share.synthesia.io/30306b69-fd71-4721-9ff0-7bb5a21cbb07
+## Video Lessons (placeholders)
 
-Video 03B — Delegation Boundaries
-📺 LINK_TO_VIDEO_03B
+### 🎥 Video 03A — Automation vs Autonomy
+[▶ Video coming soon]
 
-Video 03C — Approval & Execution Models
-📺 LINK_TO_VIDEO_03C
+**Diagram cue:** `ai-ops-foundation-architecture.png`
 
-Video 03D — Preventing Automation Drift
-📺 LINK_TO_VIDEO_03D
+---
 
-03.1 — Automation Is Not Autonomy
+### 🎥 Video 03B — Delegation Boundaries
+[▶ Video coming soon]
 
-Automation executes predefined logic.
-AI generates probabilistic output.
+**Diagram cue:** `ai-automation-boundary-flow.png`
 
-Combining the two without controls creates:
+---
 
-Hidden execution paths
+### 🎥 Video 03C — Approval & Execution Models
+[▶ Video coming soon]
 
-Irreversible changes
+**Diagram cue:** `ai-ticket-handling-flow.png`
 
-Blurred accountability
+---
 
-AI may suggest automation.
-AI may not autonomously trigger it.
+### 🎥 Video 03D — Preventing Automation Drift
+[▶ Video coming soon]
 
-03.2 — Approved AI Automation Use Cases
-Green Zone
+**Diagram cue:** `documentation-feedback-loop.png`
 
-Drafting scripts
+---
 
-Suggesting runbook steps
+## Automation vs Autonomy
 
-Simulating remediation
+- **Automation:** Executes rules predictably  
+- **Autonomy:** Makes probabilistic decisions  
+- Humans remain accountable  
+- Combine AI with execution **only with controls** to prevent outages
 
-Yellow Zone
+---
 
-Pre-approved, human-triggered automation
+## Delegation Boundaries
 
-Change-managed workflows
+- Every automation must have:
+  - **Who** can trigger it  
+  - **What** it can affect  
+  - **How** it can be stopped  
+- Without clarity, automation is unsafe
 
-Red Zone
+---
 
-Fully autonomous execution
+## Approval & Execution Models
 
-Self-modifying automation
+- Safe automation includes **friction**  
+- Approvals are **controls, not inefficiency**  
+- Humans must remain accountable
 
-Privileged access changes
+---
 
-03.3 — Delegation Boundary Model
+## Preventing Automation Drift
 
-Every automation must define:
+| Drift Type | Risk | Mitigation |
+|------------|------|-----------|
+| Model drift | AI output diverges | Periodic review & rotation |
+| Workflow drift | Automation exceeds intent | Scheduled audits |
+| Environmental drift | Production changes affect AI | Logging & monitoring |
 
-Who triggers it
+---
 
-What systems it can touch
+## Diagrams
 
-How it can be stopped
+All diagrams for this module are in `diagrams/`:
 
-How it is audited
+- `ai-ops-foundation-architecture.png`  
+- `ai-automation-boundary-flow.png`  
+- `ai-ticket-handling-flow.png`  
+- `documentation-feedback-loop.png`
 
-(See diagram: ai-automation-boundary-flow)
+> Click for full-size images
 
-03.4 — Approval Models
+---
 
-Safe patterns include:
+## Next Steps
 
-Two-person approval
+- Proceed to [Module 04 — AI Governance & Risk](../MODULE_04_AI_GOVERNANCE/README.md)  
+- Use diagrams alongside videos when available  
+- Return to Module Index: [⬅ Return to Module Index](../MODULE_INDEX.md)
 
-Environment-based gating
-
-Time-delayed execution
-
-Dry-run previews
-
-Automation without friction is unsafe.
-
-03.5 — Automation Drift
-
-Automation drift occurs when:
-
-AI-generated scripts are reused without review
-
-Context changes but logic does not
-
-Temporary fixes become permanent
-
-Drift is inevitable.
-Controls must assume it.
-
-03.6 — What This Module Enables
-
-After completing this module, you will be able to:
-
-Scale automation safely
-
-Prevent silent execution failures
-
-Design auditable AI-assisted workflows
