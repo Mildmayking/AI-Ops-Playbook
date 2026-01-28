@@ -1,34 +1,34 @@
 # AI Ops Playbook — Module Index
 
-Welcome to the **AI Ops Playbook**.  
-Use this index to navigate all modules, watch videos, and review diagrams.
+Welcome to the AI Ops Playbook. Use the links below to navigate each module.
 
 ---
 
-## Modules
-
-1. [Module 01 — AI Ops Foundations](./MODULE_01_AI_OPS_FOUNDATION/README.md)  
-2. [Module 02 — AI in Incidents & Tickets](./MODULE_02_AI_IN_INCIDENTS/README.md)  
-3. [Module 03 — AI Automation & Autonomy](./MODULE_03_AI_AUTOMATION/README.md)  
-4. [Module 04 — AI Governance & Risk](./MODULE_04_AI_GOVERNANCE/README.md)  
-5. [Module 05 — AI Performance & Metrics](./MODULE_05_AI_PERFORMANCE/README.md)  
-6. [Module 06 — AI Ops Adoption & Culture](./MODULE_06_ADOPTION/README.md)  
+## 📘 Module 01 — AI Ops Foundations
+[Open Module 01](./MODULE_01/README.md)
 
 ---
 
-## Notes
-
-- Each module contains videos (placeholders or URLs), diagrams, and structured content.  
-- Return to this index anytime from each module:  
-  `[⬅ Return to Module Index](../MODULE_INDEX.md)`  
+## 🚨 Module 02 — AI in Incidents & Ticketing
+[Open Module 02](./MODULE_02/README.md)
 
 ---
 
-## How to Use
+## 🤖 Module 03 — Automation & Autonomy
+[Open Module 03](./MODULE_03/README.md)
 
-1. Start with **Module 01**  
-2. Follow the videos and diagrams  
-3. Move sequentially through modules 02–06  
-4. Use diagrams for reference and context  
-5. Return to the index for easy navigation
+---
+
+## 🛡 Module 04 — Governance & Risk
+[Open Module 04](./MODULE_04/README.md)
+
+---
+
+## 📊 Module 05 — Metrics & Performance
+[Open Module 05](./MODULE_05/README.md)
+
+---
+
+## 🚀 Module 06 — Adoption & Operating Model
+[Open Module 06](./MODULE_06/README.md)
 
