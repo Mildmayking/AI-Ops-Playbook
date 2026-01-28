@@ -5,7 +5,7 @@ Welcome to the AI Ops Playbook. Use the links below to navigate each module.
 ---
 
 ## 📘 Module 01 — AI Ops Foundations
-[Open Module 01](./MODULE_01*/README.md)
+[Open Module 01](./01-ai-ops-foundation/README.md)
 
 ---
 
